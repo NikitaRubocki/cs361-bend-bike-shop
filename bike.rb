@@ -28,11 +28,11 @@ class Bike
     self.cargo.remove(item)
   end
 
-  def cargo_capacity
+  def capacity
     MAX_CARGO
   end
 
-  def cargo_remaining_capacity
+  def remaining_capacity
     MAX_CARGO - self.cargo.capacity
   end
 
